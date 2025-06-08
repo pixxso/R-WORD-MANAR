@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>RTranslate - Démo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>RTranslate</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="translators.html">Traducteurs</a>
+            <a href="booking.html">Réservation</a>
+            <a href="demo.html">Démo</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Démo de Traduction</h2>
+        <textarea id="inputText" placeholder="Écrivez ici votre texte à traduire..."></textarea>
+        <select id="langSelect">
+            <option value="en">Anglais</option>
+            <option value="es">Espagnol</option>
+            <option value="de">Allemand</option>
+        </select>
+        <button onclick="translateText()">Traduire</button>
+        <div id="outputText"></div>
+    </main>
+    <footer>
+        <p>&copy; 2025 RTranslate. Tous droits réservés.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
